@@ -1,0 +1,32 @@
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 6rem; */
+  min-height: 100vh;
+}
+
+.signInButton {
+  margin-top: 2rem;
+  align-self: center;
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  background-color: dodgerblue;
+
+  cursor: pointer;
+
+  border-radius: .5rem;
+}
+
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
