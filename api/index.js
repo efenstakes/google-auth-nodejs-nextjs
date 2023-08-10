@@ -46,8 +46,14 @@ app.post("/authenticate", async (req, res)=> {
         console.log('====================================');
         console.log(" token ", token);
         console.log('====================================');
-        
+
         const result = await admin.auth().verifyIdToken(token)
+
+        console.log('====================================');
+        console.log(" result ", result);
+        console.log('====================================');
+
+        console.log(Object.keys(result))
 
         res.json({ running: true, result, })
     } catch(e) {

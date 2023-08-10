@@ -21,7 +21,7 @@ export default function Home() {
       console.log(res)
 
       console.log("res ", res['_tokenResponse']['idToken'])
-      console.log("keys ", Object.keys(res))
+      console.log("keys ", Object.keys(res.user))
 
       const token = res['_tokenResponse']['idToken']
 
